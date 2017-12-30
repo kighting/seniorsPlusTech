@@ -44,7 +44,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body <?php body_class(); ?> data-spy="scroll" data-target="#nav-top" data-offset="56">
+<body <?php body_class(); ?> data-spy="scroll" data-target="#nav-top" data-offset="56" id="app">
 
 <div class="hfeed site" id="page">
 

@@ -11,31 +11,31 @@ $the_theme = wp_get_theme();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
+</div><!-- #page we need this extra closing tag here -->
+
 <?php get_sidebar( 'footerfull' ); ?>
 
-<div class="wrapper wrapper-footer">
+    <div class="wrapper wrapper-footer">
 
-	<div class="<?php echo esc_attr( $container ); ?>">
+        <div class="<?php echo esc_attr( $container ); ?>">
 
-		<div class="row">
+            <div class="row">
 
-			<div class="col-md-12">
+                <div class="col-md-12">
 
-				<footer>
-                    
-                    <?php  echo get_bloginfo( 'name' ); ?> &copy; <?php echo date('Y'); ?>
+                    <footer>
 
-				</footer><!-- #colophon -->
+                        <?php  echo get_bloginfo( 'name' ); ?> &copy; <?php echo date('Y'); ?>
 
-			</div><!--col end -->
+                    </footer><!-- #colophon -->
 
-		</div><!-- row end -->
+                </div><!--col end -->
 
-	</div><!-- container end -->
+            </div><!-- row end -->
 
-</div><!-- wrapper end -->
+        </div><!-- container end -->
 
-</div><!-- #page we need this extra closing tag here -->
+    </div><!-- wrapper end -->
 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/main.js"></script>
 
