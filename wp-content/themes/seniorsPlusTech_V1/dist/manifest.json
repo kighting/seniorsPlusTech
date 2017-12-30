@@ -1,0 +1,15 @@
+{
+  "short_name": "Seniors+Tech",
+  "name": "Seniors+Tech",
+  "icons": [
+    {
+      "src":"img/favicon/manifest.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://seniorsplustech.com/",
+  "background_color": "#ECE9DE",
+  "theme_color": "#EE6654",
+  "display": "standalone"
+}
