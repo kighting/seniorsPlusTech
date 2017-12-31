@@ -34,10 +34,10 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                 <div class="col-lg-6">
                     <div class="container container-home-image">
                         <div class="row">
-                            <div class="col-6"><img src="<?php bloginfo('template_url'); ?>/img/img_home01.webp" class="" alt="Seniors plus tech"></div>
-                            <div class="col-6"><img src="<?php bloginfo('template_url'); ?>/img/img_home02.webp" class="" alt="Seniors plus tech"></div>
-                            <div class="col-6"><img src="<?php bloginfo('template_url'); ?>/img/img_home03.webp" class="" alt="Seniors plus tech"></div>
-                            <div class="col-6"><img src="<?php bloginfo('template_url'); ?>/img/img_home04.webp" class="" alt="Seniors plus tech"></div>
+                            <div class="col-6"><img src="<?php bloginfo('template_url'); ?>/img/img_home01.png" class="" alt="Seniors plus tech"></div>
+                            <div class="col-6"><img src="<?php bloginfo('template_url'); ?>/img/img_home02.png" class="" alt="Seniors plus tech"></div>
+                            <div class="col-6"><img src="<?php bloginfo('template_url'); ?>/img/img_home03.png" class="" alt="Seniors plus tech"></div>
+                            <div class="col-6"><img src="<?php bloginfo('template_url'); ?>/img/img_home04.png" class="" alt="Seniors plus tech"></div>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 order-lg-1 col-md-4 order-md-1 col-sm-12 order-sm-2 order-2">
-                    <img src="<?php bloginfo('template_url'); ?>/img/img_ryan.webp" alt="Ryan">
+                    <img src="<?php bloginfo('template_url'); ?>/img/img_ryan.png" alt="Ryan">
                 </div>
                 <div class="col-lg-9 order-lg-2 col-md-8 order-md-1 col-sm-12 order-sm-1 order-1 story-text">
                     <h2>Story</h2>
@@ -67,17 +67,17 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 testimonial">
-                    <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial01.webp" class="" alt="Charles">
+                    <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial01.png" class="" alt="Charles">
                     <h2>Charles, 70</h2>
                     <p>"I'm probably like a lot of people in my age group. I'm definitely not tech savvy. Ryan has been a tremendous help introducing me to new tools I need. He's knowledgeable, passionate, and very patient."</p>
                 </div>
                 <div class="col-lg-4 testimonial">
-                    <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial02.webp" class="" alt="Josie">
+                    <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial02.png" class="" alt="Josie">
                     <h2>Josie, 70</h2>
                     <p>"Ryan helped me learn Facebook and how to set up a group in my Gmail. He was polite and patient. If I didn't understand something he just helped me understand; never condescending or patronizing."</p>
                 </div>
                 <div class="col-lg-4 testimonial">
-                    <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial03.webp" class="" alt="Linda">
+                    <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial03.png" class="" alt="Linda">
                     <h2>Linda, 69</h2>
                     <p>"Ryan helped me with selection of a new computer, set it up and patiently walked me through features that are important for me. Now I can do video calling with my family!"</p>
                 </div>
@@ -111,7 +111,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                     </ul>
                 </div>
                 <div class="col-lg-6">
-                    <img src="<?php bloginfo('template_url'); ?>/img/img_service.webp" class="" alt="Service">
+                    <img src="<?php bloginfo('template_url'); ?>/img/img_service.png" class="" alt="Service">
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                 <div class="col-lg-6">
                     <p>Are you in charge of programs and activities for a retirement community in the greater Seattle area? Do you want to schedule an event or have more questions? Please contact us!</p>
                     <div class="contact">
-                        <img src="<?php bloginfo('template_url'); ?>/img/img_contact.webp" class="contact-img" alt="Ryan">
+                        <img src="<?php bloginfo('template_url'); ?>/img/img_contact.png" class="contact-img" alt="Ryan">
                         <div class="contact-text">
                             <h4>Ryan Nelson</h4>
                             <ul>
