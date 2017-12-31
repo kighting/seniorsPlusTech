@@ -9555,12 +9555,16 @@ body {
 body {
   font-family: "Roboto", sans-serif;
   color: #242424;
-  background-color: #ECE9DE;
+  background-color: #ece9de;
   font-size: 1rem;
   font-weight: 400;
   position: relative; }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 400;
   font-family: "Montserrat", sans-serif; }
 
@@ -9582,7 +9586,10 @@ p {
     font-weight: 700; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #2fb9c5; }
+  a:hover {
+    color: #2fb9c5; }
 
 button:focus, button:active, button:visited {
   outline: 0;
@@ -9605,18 +9612,20 @@ input {
   letter-spacing: .1rem;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
-  color: #FFFFFF;
+  color: #fff;
   background-color: #242424;
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   outline: 0; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:not([disabled]):not(.disabled):active {
-    background-color: #444444;
+    background-color: #444;
     border-color: transparent;
     box-shadow: none; }
 
-/*Sticky footer*/
+/********************************
+              Sticky footer
+********************************/
 #app {
   display: flex;
   min-height: 100vh;
@@ -9632,7 +9641,7 @@ input {
   padding: 0; }
 
 .wrapper-nav {
-  background-color: #ECE9DE;
+  background-color: #ece9de;
   font-family: "Montserrat", sans-serif;
   position: fixed;
   top: 0;
@@ -9642,11 +9651,13 @@ input {
   .wrapper-nav .navbar {
     padding: 0.7rem 0; }
     .wrapper-nav .navbar a.navbar-brand {
-      color: #444444;
+      color: #444;
       font-weight: 700; }
     .wrapper-nav .navbar .logo {
       position: relative; }
-      .wrapper-nav .navbar .logo span.S, .wrapper-nav .navbar .logo span.T, .wrapper-nav .navbar .logo span.plus {
+      .wrapper-nav .navbar .logo span.S,
+      .wrapper-nav .navbar .logo span.T,
+      .wrapper-nav .navbar .logo span.plus {
         position: absolute;
         top: -10px; }
       .wrapper-nav .navbar .logo span.S {
@@ -9732,12 +9743,13 @@ input {
 .wrapper-footer {
   padding: 1rem 0;
   background-color: #242424;
-  color: #FFFFFF; }
+  color: #fff; }
 
 footer {
   text-align: center;
   font-size: 0.9rem;
-  letter-spacing: 0.1rem; }
+  letter-spacing: 0.1rem;
+  cursor: default; }
 
 /********************************
               Section
@@ -9756,7 +9768,7 @@ section {
 ********************************/
 #home {
   padding: 128px 0 0 0;
-  background-color: #ECE9DE; }
+  background-color: #ece9de; }
   #home h2 {
     font-size: 2.8rem;
     line-height: 3.4rem;
@@ -9764,16 +9776,16 @@ section {
     letter-spacing: .2rem;
     font-weight: 700; }
     #home h2 span.color-red {
-      color: #EE6654; }
+      color: #ee6654; }
     #home h2 span.color-yellow {
-      color: #DCA41D; }
+      color: #dca41d; }
     #home h2 span.color-blue {
-      color: #2FB9C5; }
+      color: #2fb9c5; }
   #home h3 {
     font-size: 1.4rem;
     line-height: 2.2rem;
     font-style: italic;
-    color: #444444;
+    color: #444;
     margin-bottom: 40px; }
   #home p {
     font-size: 1.8rem;
@@ -9796,7 +9808,7 @@ section {
 ********************************/
 #story {
   padding: 110px 0 80px 0;
-  background-color: #FFFFFF; }
+  background-color: #fff; }
   #story img {
     max-width: 260px;
     width: 100%;
@@ -9820,11 +9832,11 @@ section {
   #testimonials .testimonial img {
     border-radius: 50%; }
   #testimonials .testimonial:nth-child(1) img {
-    border: 6px solid #EE6654; }
+    border: 6px solid #ee6654; }
   #testimonials .testimonial:nth-child(2) img {
-    border: 6px solid #DCA41D; }
+    border: 6px solid #dca41d; }
   #testimonials .testimonial:nth-child(3) img {
-    border: 6px solid #2FB9C5; }
+    border: 6px solid #2fb9c5; }
   #testimonials h2 {
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -9843,7 +9855,7 @@ section {
              Services
 ********************************/
 #services {
-  background-color: #FFFFFF; }
+  background-color: #fff; }
   #services h2 {
     margin-bottom: 20px; }
   #services p {
@@ -9857,7 +9869,7 @@ section {
     line-height: 2.2rem;
     font-weight: 400; }
     #services ul li span {
-      color: #999999; }
+      color: #999; }
 
 @media (max-width: 991px) {
   #services ul {
@@ -9869,7 +9881,7 @@ section {
             Contact
 ********************************/
 #contact {
-  background-color: #ECE9DE; }
+  background-color: #ece9de; }
   #contact h2 {
     text-align: center;
     margin-bottom: 5px; }
@@ -9879,9 +9891,9 @@ section {
     line-height: 2rem;
     font-style: italic;
     margin-bottom: 30px;
-    color: #444444; }
+    color: #444; }
     #contact h3 span {
-      color: #EE6654; }
+      color: #ee6654; }
   #contact .contact {
     font-family: "Montserrat", sans-serif;
     margin: 30px 0 0 0; }
@@ -9916,13 +9928,15 @@ section {
       margin-bottom: 8px; }
       #contact .wpcf7 form p label {
         font-size: 1rem; }
-        #contact .wpcf7 form p label input, #contact .wpcf7 form p label textarea {
+        #contact .wpcf7 form p label input,
+        #contact .wpcf7 form p label textarea {
           border-radius: 0;
           border: none;
           box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
-          color: #444444; }
-          #contact .wpcf7 form p label input:focus, #contact .wpcf7 form p label textarea:focus {
-            outline: 2px solid #2FB9C5; }
+          color: #444; }
+          #contact .wpcf7 form p label input:focus,
+          #contact .wpcf7 form p label textarea:focus {
+            outline: 2px solid #2fb9c5; }
     #contact .wpcf7 form input[type=submit] {
       border: none;
       width: auto;
@@ -9934,7 +9948,7 @@ section {
       letter-spacing: .1rem;
       font-weight: 300;
       font-family: "Montserrat", sans-serif;
-      color: #FFFFFF;
+      color: #fff;
       background-color: #242424;
       border-radius: 30px;
       cursor: pointer;
@@ -9943,20 +9957,20 @@ section {
       margin-top: 10px;
       outline: 0; }
       #contact .wpcf7 form input[type=submit]:hover, #contact .wpcf7 form input[type=submit]:focus, #contact .wpcf7 form input[type=submit]:active, #contact .wpcf7 form input[type=submit]:not([disabled]):not(.disabled):active {
-        background-color: #444444;
+        background-color: #444;
         border-color: transparent;
         box-shadow: none; }
     #contact .wpcf7 .wpcf7-response-output {
       margin: 20px 0; }
     #contact .wpcf7 .wpcf7-validation-errors {
-      background-color: #EE6654;
-      color: #FFFFFF;
+      background-color: #ee6654;
+      color: #fff;
       border: 0;
       border-radius: 0;
       padding: .7rem 1rem; }
     #contact .wpcf7 .wpcf7-mail-sent-ok {
-      background-color: #2FB9C5;
-      color: #FFFFFF;
+      background-color: #2fb9c5;
+      color: #fff;
       border: 0;
       border-radius: 0;
       padding: .7rem 1rem; }
