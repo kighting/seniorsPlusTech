@@ -37,23 +37,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
     </div><!-- wrapper end -->
 
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/main.js"></script>
-
 <?php wp_footer(); ?>
 
 </body>
 
-<script>
-  if ('serviceWorker' in navigator) {
-    console.log("Will the service worker register?");
-    navigator.serviceWorker.register('service-worker.js')
-      .then(function(reg){
-        console.log("Yes, it did.");
-      }).catch(function(err) {
-        console.log("No it didn't. This happened: ", err)
-      });
-  }
-</script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/main.js"></script>
 
 </html>
 
