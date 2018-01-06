@@ -1,3 +1,5 @@
+//Make sure to open a new tab to test the edited service worker. An alternative is to check the "Update on reload" in the Application tab in Chrome Dev Tool
+
 self.addEventListener('install', function(event) {
   console.log('[Service Worker] Installing Service Worker ...', event);
 });
@@ -7,7 +9,9 @@ self.addEventListener('activate', function(event) {
   return self.clients.claim();
 });
 
+//Service worker is able to intercept all request and response
 self.addEventListener('fetch', function(event) {
   console.log('[Service Worker] Fetching something ....', event);
+  //Allow us to twist the data
   event.respondWith(fetch(event.request));
 });
