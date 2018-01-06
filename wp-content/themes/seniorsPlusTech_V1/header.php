@@ -57,13 +57,11 @@ $container = get_theme_mod( 'understrap_container_type' );
             <nav class="navbar navbar-expand-md" id="nav-top">
                 
                 <a class="navbar-brand logo" href="<?php echo get_home_url(); ?>">
-                    <!--img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""-->
                     <span class="S">S</span><span class="plus">+</span><span class="T">T</span>
                     <!--?php  echo get_bloginfo( 'name' ); ?-->
                 </a>
                 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<!--                    <span class="navbar-toggler-icon"></span>-->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>

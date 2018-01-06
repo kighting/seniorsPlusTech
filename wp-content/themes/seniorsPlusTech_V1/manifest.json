@@ -44,8 +44,11 @@
         "type": "image/png"
     },
   ],
-  "start_url": "https://seniorsplustech.com/",
+  "start_url": "index.php",
+  "scope": ".",
   "background_color": "#ECE9DE",
   "theme_color": "#EE6654",
-  "display": "standalone"
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "description": "1-on-1 tech support for retirement communities",
 }
