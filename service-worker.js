@@ -1,22 +1,13 @@
-self.addEventListener('install', e => {
- e.waitUntil(
-    caches.open('airhorner').then(cache => {
-        return cache.addAll([
-            '/wp-content/themes/seniorsPlusTech_V1/index.php'
-        ])
-            .then(() => self.skipWaiting());
-    })
-  )
+self.addEventListener('install', function(event) {
+  console.log('[Service Worker] Installing Service Worker ...', event);
 });
 
-self.addEventListener('activate', event => {
- event.waitUntil(self.clients.claim());
+self.addEventListener('activate', function(event) {
+  console.log('[Service Worker] Activating Service Worker ...', event);
+  return self.clients.claim();
 });
 
-self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request).then(response => {
-        return response || fetch(event.request);
-    })
-  );
+self.addEventListener('fetch', function(event) {
+  console.log('[Service Worker] Fetching something ....', event);
+  event.respondWith(fetch(event.request));
 });
