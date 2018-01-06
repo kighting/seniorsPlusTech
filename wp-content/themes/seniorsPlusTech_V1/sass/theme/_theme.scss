@@ -19,9 +19,13 @@ body {
     position: relative;
 }
 
-h1, h2, h3, h4, h5 {
-        font-weight: 400;
-        font-family: $font-heading;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 400;
+    font-family: $font-heading;
 }
 
 h2 {
@@ -48,13 +52,19 @@ p {
 
 a {
     text-decoration: none;
+    color: $color-blue;
+    &:hover {
+        color: $color-blue;
+    }
 }
 
 button {
-    &:focus, &:active, &:visited {
-       outline: 0;
-       box-shadow: none;
-       border-color: transparent;
+    &:focus,
+    &:active,
+    &:visited {
+        outline: 0;
+        box-shadow: none;
+        border-color: transparent;
     }
 }
 
@@ -82,19 +92,26 @@ input {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     outline: 0;
-    &:hover, &:focus, &:active, &:not([disabled]):not(.disabled):active {
+    &:hover,
+    &:focus,
+    &:active,
+    &:not([disabled]):not(.disabled):active {
         background-color: $color-darkgrey;
         border-color: transparent;
         box-shadow: none;
     }
 }
 
-/*Sticky footer*/
+/********************************
+              Sticky footer
+********************************/
+
 #app {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
+
 #page {
     flex: 1;
 }
@@ -123,7 +140,9 @@ input {
         }
         .logo {
             position: relative;
-            span.S, span.T, span.plus {
+            span.S,
+            span.T,
+            span.plus {
                 position: absolute;
                 top: -10px;
             }
@@ -146,7 +165,7 @@ input {
         ul.navbar-nav {
             .active {
                 border-bottom: 3px solid $color-darkestgrey;
-            }           
+            }
             li.nav-item {
                 margin-right: 30px;
                 &:last-child {
@@ -162,15 +181,27 @@ input {
 }
 
 @keyframes moveright {
-    0%   {left: 0;}
-    50%  {left: 40px;}
-    100% {left: 0;}
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 40px;
+    }
+    100% {
+        left: 0;
+    }
 }
 
 @keyframes moveleft {
-    0%   {left: 40px;}
-    50%  {left: 0;}
-    100% {left: 40px;}
+    0% {
+        left: 40px;
+    }
+    50% {
+        left: 0;
+    }
+    100% {
+        left: 40px;
+    }
 }
 
 .navbar-toggler {
@@ -253,6 +284,7 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
+    cursor: default;
 }
 
 
@@ -286,9 +318,15 @@ section {
         letter-spacing: .2rem;
         font-weight: 700;
         span {
-            &.color-red {color: $color-red;}
-            &.color-yellow {color: $color-yellow;}
-            &.color-blue {color: $color-blue;}
+            &.color-red {
+                color: $color-red;
+            }
+            &.color-yellow {
+                color: $color-yellow;
+            }
+            &.color-blue {
+                color: $color-blue;
+            }
         }
     }
     h3 {
@@ -310,12 +348,14 @@ section {
         margin-bottom: -72px;
         padding: 0;
         img {
-            &:nth-child(1), &:nth-child(2) {
+            &:nth-child(1),
+            &:nth-child(2) {
                 margin-bottom: 30px;
             }
         }
     }
 }
+
 @media(max-width: 991px) {
     #home {
         .container-home-text {
@@ -328,7 +368,6 @@ section {
 /********************************
               Story
 ********************************/
-
 
 #story {
     padding: 110px 0 80px 0;
@@ -368,9 +407,15 @@ section {
         img {
             border-radius: 50%;
         }
-        &:nth-child(1) img {border: 6px solid $color-red;}
-        &:nth-child(2) img {border: 6px solid $color-yellow;}
-        &:nth-child(3) img {border: 6px solid $color-blue;}
+        &:nth-child(1) img {
+            border: 6px solid $color-red;
+        }
+        &:nth-child(2) img {
+            border: 6px solid $color-yellow;
+        }
+        &:nth-child(3) img {
+            border: 6px solid $color-blue;
+        }
     }
     h2 {
         font-size: 1.6rem;
@@ -458,7 +503,6 @@ section {
         .contact-img {
             margin-right: 20px;
             border-radius: 50%;
-//            border: 8px solid $color-yellow;
             width: 110px;
             height: 110px;
             vertical-align: middle;
@@ -495,10 +539,11 @@ section {
                 margin-bottom: 8px;
                 label {
                     font-size: 1rem;
-                    input, textarea {
+                    input,
+                    textarea {
                         border-radius: 0;
                         border: none;
-                        box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+                        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
                         color: $color-darkgrey;
                         &:focus {
                             outline: 2px solid $color-blue;
@@ -525,7 +570,10 @@ section {
                 float: right;
                 margin-top: 10px;
                 outline: 0;
-                &:hover, &:focus, &:active, &:not([disabled]):not(.disabled):active {
+                &:hover,
+                &:focus,
+                &:active,
+                &:not([disabled]):not(.disabled):active {
                     background-color: $color-darkgrey;
                     border-color: transparent;
                     box-shadow: none;
