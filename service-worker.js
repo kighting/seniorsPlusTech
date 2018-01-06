@@ -1,5 +1,7 @@
 //Make sure to open a new tab to test the edited service worker. An alternative is to check the "Update on reload" in the Application tab in Chrome Dev Tool
 
+//Get the Web App Install Banners: https://developers.google.com/web/fundamentals/app-install-banners/
+
 self.addEventListener('install', function(event) {
   console.log('[Service Worker] Installing Service Worker ...', event);
 });
