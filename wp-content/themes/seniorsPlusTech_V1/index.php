@@ -120,7 +120,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
     <section id="contact">
         <div class="container">
             <h2>Schedule an event</h2>
-            <h3>The first time is always <span>free</span></h3>
+            <h3>The first event is <span>free</span></h3>
             <div class="row">
                 <div class="col-lg-6">
                     <p>Are you in charge of programs and activities for a retirement community in the greater Seattle area? Do you want to schedule an event or have more questions? Please contact us!</p>
