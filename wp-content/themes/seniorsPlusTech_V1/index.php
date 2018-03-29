@@ -22,15 +22,16 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
     <?php endif; ?>
 
     <section id="home">
-
+        <div class="rellaxBg rellax" data-rellax-speed="-4">
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 container-home-text">
-                    <h2><span class="color-red">Seniors</span><span class="color-yellow"> + </span><span class="color-blue">Tech</span></h2>
-                    <h3>No such thing as a stupid question!</h3>
+                    <h2>Seniors + Tech</h2>
                     <p>1-on-1 tech support events for retirement communities in the greater Seattle area</p>
                     <button class="btn-primary" id="btn-schedule">Schedule an event</button>
                 </div>
+<!--
                 <div class="col-lg-6">
                     <div class="container container-home-image">
                         <div class="row">
@@ -41,6 +42,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                         </div>
                     </div>
                 </div>
+-->
             </div>
         </div>
 
@@ -49,14 +51,13 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
     <section id="story">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 order-lg-1 col-md-4 order-md-1 col-sm-12 order-sm-2 order-2">
-                    <img src="<?php bloginfo('template_url'); ?>/img/img_ryan.png" alt="Ryan">
+                <div class="col-lg-6 order-lg-1 col-md-6 order-md-1 col-sm-12 order-sm-2 order-2">
+                    <img src="<?php bloginfo('template_url'); ?>/img/img_story01.png" alt="Helping seniors in retirement homes">
                 </div>
-                <div class="col-lg-9 order-lg-2 col-md-8 order-md-1 col-sm-12 order-sm-1 order-1 story-text">
+                <div class="col-lg-6 order-lg-2 col-md-6 order-md-1 col-sm-12 order-sm-1 order-1 story-text">
                     <h2>Story</h2>
-                    <p>Hello, my name is Ryan, originally a front-end web developer. In early 2017, I was attending a Google Tech conference in downtown Seattle, when I met a senior named Josie. After talking tech for awhile, she asked if I would come to her house the following day and help update her computer.</p>
-                    <p>I agreed, and during our meeting also helped her: install Google Chrome, create contact groups, organize browser bookmarks, setup email templates, organize shared files, create folders, sync camera photos in the cloud, and more. Now Josie’s more connected to her family and theater community than ever before, doing things she never knew were possible.</p>
-                    <p>Working together was such an enjoyable experience that I wondered: how many other seniors need tech assistance, and can I do something to help? This thought has since grown into a small business — Seniors + Tech, providing retirement home seniors with the 1-on-1 technology support they need to stay connected with the rest of us. <span>Schedule an event at your retirement community today!</span></p>
+                    <p>In 2017, while attending a Google Tech conference in downtown Seattle, a senior named Josie approached me and asked if I would help update her Windows 7 computer. I agreed, and during our meeting showed her how to do 20+ other things she didn’t know her computer could do. Josie is now more empowered and independent than ever before.</p>
+                    <p>Working with Josie showed me how important it is that seniors not be left behind when it comes to technology. That is why I started Seniors + Tech to provide 1-on-1 tech support events to retirement communities in order to help seniors get the technology support they need to be independent and connected like the rest of us.</p>
                 </div>
             </div>
         </div>
@@ -67,17 +68,23 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 testimonial">
-                    <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial01.png" class="" alt="Charles">
+                    <div class="img_outline">
+                        <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial01.png" class="" alt="Charles">
+                    </div>
                     <h2>Charles, 70</h2>
                     <p>"I'm probably like a lot of people in my age group. I'm definitely not tech savvy. Ryan has been a tremendous help introducing me to new tools I need. He's knowledgeable, passionate, and very patient."</p>
                 </div>
                 <div class="col-lg-4 testimonial">
-                    <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial02.png" class="" alt="Josie">
+                    <div class="img_outline">
+                        <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial02.png" class="" alt="Josie">
+                    </div>
                     <h2>Josie, 70</h2>
                     <p>"Ryan helped me learn Facebook and how to set up a group in my Gmail. He was polite and patient. If I didn't understand something he just helped me understand; never condescending or patronizing."</p>
                 </div>
                 <div class="col-lg-4 testimonial">
-                    <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial03.png" class="" alt="Linda">
+                    <div class="img_outline">
+                        <img src="<?php bloginfo('template_url'); ?>/img/img_testimonial03.png" class="" alt="Linda">
+                    </div>
                     <h2>Linda, 69</h2>
                     <p>"Ryan helped me with selection of a new computer, set it up and patiently walked me through features that are important for me. Now I can do video calling with my family!"</p>
                 </div>
@@ -117,13 +124,28 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
         </div>
     </section>
 
+    <section id="customers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Some of our customers</h3>
+<!--                    <img src="<?php bloginfo('template_url'); ?>/img/logo_mbk.png" class="customer_logo" alt="MBK Senior Living">-->
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_transforming_age.png" class="customer_logo" alt="transforming age">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_Watermark.png" class="customer_logo" alt="Watermark retirement community">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_era_living.png" class="customer_logo" alt="Era Living">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_aegis.png" class="customer_logo" alt="Aegis Living">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_brookdale.png" class="customer_logo" alt="Brookdale Senior Living Solutions">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
         <div class="container">
             <h2>Schedule an event</h2>
-            <h3>The first event is <span>free</span></h3>
             <div class="row">
                 <div class="col-lg-6">
-                    <p>Are you in charge of programs and activities for a retirement community in the greater Seattle area? Do you want to schedule an event or have more questions? Please contact us!</p>
+                    <p>If you have any questions about our services, please fill out the form and Ryan will get back to you as soon as possible. We look forward to hearing from you!</p>
                     <div class="contact">
                         <img src="<?php bloginfo('template_url'); ?>/img/img_contact.png" class="contact-img" alt="Ryan">
                         <div class="contact-text">

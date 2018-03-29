@@ -25,7 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                     <footer>
 
-                        <?php  echo get_bloginfo( 'name' ); ?> &copy; <?php echo date('Y'); ?>
+                        <span class="dashes">————</span>&nbsp; <?php  echo get_bloginfo( 'name' ); ?> &copy; <?php echo date('Y'); ?> <span class="dashes"> ————</span>
 
                     </footer><!-- #colophon -->
 
@@ -46,6 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 </body>
 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/main.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/rellax.js"></script>
 
 </html>
 

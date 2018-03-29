@@ -12,6 +12,9 @@ if ('serviceWorker' in navigator) {
 
 $(function(){
     
+    //Parallax scrolling
+    var rellax = new Rellax('.rellax');
+    
     //Nav item scrolling
     $('a.nav-link').on('click', function (event) {
         event.preventDefault();
@@ -39,6 +42,16 @@ $(function(){
             $('.wrapper-nav').css({'box-shadow': 'none'});
             shadow = true;
         }
+    });
+    
+    //Nav bg
+    $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 438) {
+            $('.wrapper-nav').css({"background":"rgba(238,102,84,1)"});
+            console.log('scroll 588')
+        } else {
+            $('.wrapper-nav').css({"background":"rgba(238,102,84,0)"});
+        } 
     });
     
 });//document.ready
