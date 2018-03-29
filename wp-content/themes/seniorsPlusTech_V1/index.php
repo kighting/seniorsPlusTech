@@ -97,7 +97,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
             <h2>Services</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <p>Seniors + Tech provides 1-on-1 tech support events to retirement communities in the greater Seattle area for:</p>
+                    <p>Seniors + Tech events provide 1-on-1 tech support for:</p>
                     <ul>
                         <li>Computers</li>
                         <li>Smart phones</li>
@@ -105,7 +105,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                         <li>Voice calling</li>
                         <li>Video calling</li>
                         <li>Text messaging</li>
-                        <li>Printing</li>
+                        <li>Printers</li>
                     </ul>
                     <ul>
                         <li>Photo sharing</li>
@@ -145,7 +145,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
             <h2>Schedule an event</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <p>If you have any questions about our services, please fill out the form and Ryan will get back to you as soon as possible. We look forward to hearing from you!</p>
+                    <p>If you have any questions about our services, please fill out the form and we will get back to you as soon as possible. We look forward to hearing from you!</p>
                     <div class="contact">
                         <img src="<?php bloginfo('template_url'); ?>/img/img_contact.png" class="contact-img" alt="Ryan">
                         <div class="contact-text">
@@ -153,7 +153,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                             <ul>
                                 <li><img src="<?php bloginfo('template_url'); ?>/img/ic_role.svg" class="" alt="Role">Lead Instructor</li>
                                 <li><img src="<?php bloginfo('template_url'); ?>/img/ic_email.svg" class="" alt="Email"><a href="mailto:ryan@seniorsplustech.com">ryan@seniorsplustech.com</a></li>
-                                <li><img src="<?php bloginfo('template_url'); ?>/img/ic_phone.svg" class="" alt="Phone"><a href="tel:+4252987335">425-298-7335</a></li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/img/ic_phone.svg" class="" alt="Phone"><a href="tel:+1-425-298-7335">425-298-7335</a></li>
                                 <li><img src="<?php bloginfo('template_url'); ?>/img/ic_location.svg" class="" alt="Location">Seattle, WA</li>
                             </ul>
                         </div>
