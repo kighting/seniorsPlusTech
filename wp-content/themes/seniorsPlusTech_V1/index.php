@@ -57,7 +57,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                 <div class="col-lg-6 order-lg-2 col-md-6 order-md-1 col-sm-12 order-sm-1 order-1 story-text">
                     <h2>Story</h2>
                     <p>In 2017, while attending a Google Tech conference in downtown Seattle, a senior named Josie approached me and asked if I would help update her Windows 7 computer. I agreed, and during our meeting showed her how to do 20+ other things she didn’t know her computer could do. Josie is now more empowered and independent than ever before.</p>
-                    <p>Working with Josie showed me how important it is that seniors not be left behind when it comes to technology. That is why I started Seniors + Tech to provide 1-on-1 tech support events to retirement communities in order to help seniors get the technology support they need to be independent and connected like the rest of us.</p>
+                    <p>Working with Josie showed me how important it is that seniors not be left behind when it comes to technology. That is why I started Seniors + Tech to provide 1-on-1 tech support events to retirement communities in order to help seniors get the technology support they need to be independent and connected.</p>
                 </div>
             </div>
         </div>
