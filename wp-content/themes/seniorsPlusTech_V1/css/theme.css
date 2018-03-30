@@ -9783,7 +9783,8 @@ section {
 #home {
   z-index: 1;
   padding: 118px 0 0 0;
-  position: relative; }
+  position: relative;
+  background-color: #ee6654; }
   #home h2 {
     font-size: 2.8rem;
     line-height: 3.4rem;
