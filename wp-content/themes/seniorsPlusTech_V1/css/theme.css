@@ -9555,7 +9555,7 @@ body {
 body {
   font-family: "Roboto", sans-serif;
   color: #242424;
-  background-color: #ece9de;
+  background-color: #ee6654;
   font-size: 1rem;
   font-weight: 400;
   position: relative; }
@@ -9742,7 +9742,7 @@ input {
               Footer
 ********************************/
 .wrapper-footer {
-  padding: 0 0 2rem 0;
+  padding: 2rem 0;
   background-color: #f1f1f1;
   color: #999; }
   .wrapper-footer .dashes {
@@ -9764,7 +9764,8 @@ section {
              404
 ********************************/
 #container-404 {
-  padding: 128px 0 80px 0; }
+  padding: 128px 0 80px 0;
+  background-color: #ee6654; }
 
 /********************************
               Home
@@ -9910,7 +9911,8 @@ section {
             Contact
 ********************************/
 #contact {
-  background-color: #f1f1f1; }
+  background-color: #f1f1f1;
+  padding: 80px 0 48px 0; }
   #contact h2 {
     text-align: center;
     margin-bottom: 5px;

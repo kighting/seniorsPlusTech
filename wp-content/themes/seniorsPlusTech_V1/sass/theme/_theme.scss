@@ -13,7 +13,7 @@ body {
 body {
     font-family: $font-body;
     color: $color-darkestgrey;
-    background-color: $color-nude;
+    background-color: $color-red;
     font-size: 1rem;
     font-weight: 400;
     position: relative;
@@ -277,7 +277,7 @@ input {
 ********************************/
 
 .wrapper-footer {
-    padding: 0 0 2rem 0;
+    padding: 2rem 0;
     background-color: $color-lightestgrey;
     color: $color-grey;
     .dashes {
@@ -307,6 +307,7 @@ section {
 
 #container-404 {
     padding: 128px 0 80px 0;
+    background-color: $color-red;
 }
 
 /********************************
@@ -516,6 +517,7 @@ section {
 
 #contact {
     background-color: $color-lightestgrey;
+    padding: 80px 0 48px 0; 
     h2 {
         text-align: center;
         margin-bottom: 5px;
