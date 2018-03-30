@@ -32,26 +32,31 @@ $(function(){
         return false;
     });
     
-    //Mobile nav shadow
-    var shadow = true;
-    $('.navbar-toggler').on('click', function (event) { 
-        if (shadow === true) {
-            $('.wrapper-nav').css({'box-shadow': '0 0 20px 0 rgba(0,0,0,0.3)'});
-            shadow = false;
-        } else if (shadow === false) {
-            $('.wrapper-nav').css({'box-shadow': 'none'});
-            shadow = true;
-        }
-    });
-    
     //Nav bg
-    $(window).on("scroll", function () {
+    function navBehavior() {
         if ($(window).scrollTop() > 438) {
             $('.wrapper-nav').css({"background":"rgba(238,102,84,1)"});
-            console.log('scroll 588')
+            $('.navbar-toggler').on('click', function (event) { 
+                $('.wrapper-nav').css({"background":"rgba(238,102,84,1)"});
+            });
         } else {
             $('.wrapper-nav').css({"background":"rgba(238,102,84,0)"});
+            //Mobile nav shadow
+            var shadow = true;
+            $('.navbar-toggler').on('click', function (event) { 
+                if (shadow === true) {
+                    $('.wrapper-nav').css({'box-shadow': '0 0 20px 0 rgba(0,0,0,0.3)', 'background':'rgba(238,102,84,1)'});
+                    shadow = false;
+                } else if (shadow === false) {
+                    $('.wrapper-nav').css({'box-shadow': 'none', 'background':'rgba(238,102,84,0)'});
+                    shadow = true;
+                }
+            });
         } 
+    } 
+    navBehavior();
+    $(window).on("scroll", function () {
+        navBehavior();
     });
      
     // Disable scroll when focused on a number input.
