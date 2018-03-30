@@ -46,9 +46,11 @@ $(function(){
             $('.navbar-toggler').on('click', function (event) { 
                 if (shadow === true) {
                     $('.wrapper-nav').css({'box-shadow': '0 0 20px 0 rgba(0,0,0,0.3)', 'background':'rgba(238,102,84,1)'});
+                    $('body').css({'overflow-y':'hidden'});
                     shadow = false;
                 } else if (shadow === false) {
                     $('.wrapper-nav').css({'box-shadow': 'none', 'background':'rgba(238,102,84,0)'});
+                    $('body').css({'overflow-y':'auto'});
                     shadow = true;
                 }
             });
