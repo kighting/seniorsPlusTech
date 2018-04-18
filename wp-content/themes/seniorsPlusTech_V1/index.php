@@ -101,6 +101,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                     <ul>
                         <li>Computers</li>
                         <li>Smart phones</li>
+                        <li>Tablets</li>
                         <li>Email</li>
                         <li>Voice calling</li>
                         <li>Video calling</li>
@@ -108,6 +109,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                         <li>Printers</li>
                     </ul>
                     <ul>
+                        <li>Readers</li>
                         <li>Photo sharing</li>
                         <li>Internet</li>
                         <li>System updates</li>
@@ -130,9 +132,10 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                 <div class="col-lg-12">
                     <h3>Some of our customers</h3>
 <!--                    <img src="<?php bloginfo('template_url'); ?>/img/logo_mbk.png" class="customer_logo" alt="MBK Senior Living">-->
-                    <img src="<?php bloginfo('template_url'); ?>/img/logo_transforming_age.png" class="customer_logo" alt="transforming age">
-                    <img src="<?php bloginfo('template_url'); ?>/img/logo_Watermark.png" class="customer_logo" alt="Watermark retirement community">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_transforming_age.png" class="customer_logo" alt="Transforming Age">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_Watermark.png" class="customer_logo" alt="Watermark Retirement Community">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_era_living.png" class="customer_logo" alt="Era Living">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_solstice.png" class="customer_logo" alt="Solstice Senior Living">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_aegis.png" class="customer_logo" alt="Aegis Living">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_brookdale.png" class="customer_logo" alt="Brookdale Senior Living Solutions">
                 </div>
