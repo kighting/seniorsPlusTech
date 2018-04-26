@@ -28,8 +28,8 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
             <div class="row">
                 <div class="col-lg-6 container-home-text">
                     <h2>Seniors + Tech</h2>
-                    <p>1-on-1 tech support events for retirement communities in the greater Seattle area</p>
-                    <button class="btn-primary" id="btn-schedule">Schedule an event</button>
+                    <p>Tech support for seniors in the greater Seattle area</p>
+                    <button class="btn-primary" id="btn-schedule">Schedule tech support</button>
                 </div>
 <!--
                 <div class="col-lg-6">
@@ -56,8 +56,8 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                 </div>
                 <div class="col-lg-6 order-lg-2 col-md-6 order-md-1 col-sm-12 order-sm-1 order-1 story-text">
                     <h2>Story</h2>
-                    <p>In 2017, while attending a Google Tech conference in downtown Seattle, a senior named Josie approached me and asked if I would help update her Windows 7 computer. I agreed, and during our meeting showed her how to do 20+ other things she didn’t know her computer could do. Josie is now more empowered and independent than ever before.</p>
-                    <p>Working with Josie showed me how empowering technology can be in a senior’s life and how important it is they not be left behind. I started Seniors + Tech to provide 1-on-1 tech support events to retirement communities in order to help seniors get the technology support they need to be independent and connected.</p>
+                    <p>In 2017, while at a Google Tech conference in downtown Seattle, I was approached by a senior named Josie and asked if I would go to her house and help update her Windows 7 computer. I said yes, and ended up showing her how to do 20+ other things she had no idea her computer could do. Now with the technology she's using Josie is more empowered and independent than ever before.</p>
+                    <p>Working with Josie showed me just how empowering technology can be in a senior’s life. Unfortunately, many seniors struggle with tech products and services and have no one to turn to for help. That's where Seniors + Tech comes in. We specialize in working with seniors to provide in-person tech support so that seniors have the resources they need to be independent and connected.</p>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
             <h2>Services</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <p>Seniors + Tech events provide 1-on-1 tech support for:</p>
+                    <p>We provide seniors with in-home tech support and training for:</p>
                     <ul>
                         <li>Computers</li>
                         <li>Smart phones</li>
@@ -130,7 +130,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3>Some of our customers</h3>
+                    <h3>Some of the retirement homes we work with</h3>
 <!--                    <img src="<?php bloginfo('template_url'); ?>/img/logo_mbk.png" class="customer_logo" alt="MBK Senior Living">-->
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_transforming_age.png" class="customer_logo" alt="Transforming Age">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_Watermark.png" class="customer_logo" alt="Watermark Retirement Community">
@@ -145,16 +145,16 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
     <section id="contact">
         <div class="container">
-            <h2>Schedule an event</h2>
+            <h2>Schedule tech support</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <p>If you have any questions about our services, please fill out the form and we will get back to you as soon as possible. We look forward to hearing from you!</p>
+                    <p>If you have any questions or would like to schedule a time with a tech support specialist, please give us a call or fill out the form and we will get back to you as soon as possible. We look forward to hearing from you!</p>
                     <div class="contact">
                         <img src="<?php bloginfo('template_url'); ?>/img/img_contact.png" class="contact-img" alt="Ryan">
                         <div class="contact-text">
                             <h4>Ryan Nelson</h4>
                             <ul>
-                                <li><img src="<?php bloginfo('template_url'); ?>/img/ic_role.svg" class="" alt="Role">Lead Instructor</li>
+                                <li><img src="<?php bloginfo('template_url'); ?>/img/ic_role.svg" class="" alt="Role">Lead Tech</li>
                                 <li><img src="<?php bloginfo('template_url'); ?>/img/ic_email.svg" class="" alt="Email"><a href="mailto:ryan@seniorsplustech.com">ryan@seniorsplustech.com</a></li>
                                 <li><img src="<?php bloginfo('template_url'); ?>/img/ic_phone.svg" class="" alt="Phone"><a href="tel:+1-425-298-7335">425-298-7335</a></li>
                                 <li><img src="<?php bloginfo('template_url'); ?>/img/ic_location.svg" class="" alt="Location">Seattle, WA</li>
