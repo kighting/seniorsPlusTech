@@ -102,20 +102,20 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                         <li>Computers</li>
                         <li>Smart phones</li>
                         <li>Tablets</li>
-                        <li>Email</li>
-                        <li>Voice calling</li>
+                        <li>Email &amp; text</li>
+                        <li>Security</li>
                         <li>Video calling</li>
-                        <li>Text messaging</li>
+                        <li>Social media</li>
                         <li>Printers</li>
                     </ul>
                     <ul>
                         <li>Readers</li>
                         <li>Photo sharing</li>
                         <li>Internet</li>
-                        <li>System updates</li>
-                        <li>Security</li>
+                        <li>Software installation</li>
+                        <li>Password recovery</li>
                         <li>Accessibility</li>
-                        <li>Social media</li>
+                        <li>User training</li>
                         <li><span>and more…</span></li>
                     </ul>
                 </div>
