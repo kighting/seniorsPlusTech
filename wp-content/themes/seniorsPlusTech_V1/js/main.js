@@ -24,13 +24,13 @@ $(function(){
         return false;
     });
     
-    $('#btn-schedule').on('click', function (event) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $('#contact').offset().top - 48
-        }, 500);
-        return false;
-    });
+//    $('#btn-schedule').on('click', function (event) {
+//        event.preventDefault();
+//        $('html, body').animate({
+//            scrollTop: $('#contact').offset().top - 48
+//        }, 500);
+//        return false;
+//    });
     
     //Nav bg
     function navBehavior() {

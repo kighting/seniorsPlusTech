@@ -29,7 +29,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                 <div class="col-lg-6 container-home-text">
                     <h2>Seniors + Tech</h2>
                     <p>Tech support for seniors in the greater Seattle area</p>
-                    <button class="btn-primary" id="btn-schedule">Schedule tech support</button>
+                    <a href="tel: +1425-298-7335"><button class="btn-primary">CALL TECH SUPPORT</button></a>
                 </div>
 <!--
                 <div class="col-lg-6">
@@ -145,7 +145,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
     <section id="contact">
         <div class="container">
-            <h2>Schedule tech support</h2>
+            <h2>Contact us</h2>
             <div class="row">
                 <div class="col-lg-6">
                     <p>If you have any questions or would like to schedule a time with a tech support specialist, please give us a call or fill out the form and we will get back to you as soon as possible. We look forward to hearing from you!</p>
