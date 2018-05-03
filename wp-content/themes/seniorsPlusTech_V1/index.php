@@ -130,7 +130,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3>Some of the retirement homes we work with</h3>
+                    <h3>Retirement communities we work with</h3>
 <!--                    <img src="<?php bloginfo('template_url'); ?>/img/logo_mbk.png" class="customer_logo" alt="MBK Senior Living">-->
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_transforming_age.png" class="customer_logo" alt="Transforming Age">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_Watermark.png" class="customer_logo" alt="Watermark Retirement Community">
