@@ -28,8 +28,8 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
             <div class="row">
                 <div class="col-lg-6 container-home-text">
                     <h2>Seniors + Tech</h2>
-                    <p>Tech support for seniors in the greater Seattle area</p>
-                    <a href="tel: +1425-298-7335"><button class="btn-primary">CALL TECH SUPPORT</button></a>
+                    <p>Tech support events for retirement communities in the greater Seattle area</p>
+                    <a href="tel: +1425-298-7335"><button class="btn-primary">CONTACT US</button></a>
                 </div>
 <!--
                 <div class="col-lg-6">
@@ -97,7 +97,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
             <h2>Services</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <p>We provide seniors with in-home tech support and training for:</p>
+                    <p>We provide seniors with tech support and training for:</p>
                     <ul>
                         <li>Computers</li>
                         <li>Smart phones</li>
@@ -149,7 +149,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
             <h2>Contact us</h2>
             <div class="row">
                 <div class="col-lg-6">
-                    <p>If you have any questions or would like to schedule a time with a tech support specialist, please give us a call or fill out the form and we will get back to you as soon as possible. We look forward to hearing from you!</p>
+                    <p>Have any questions? Give us a call or fill out the form and we will get back to you as soon as possible. Thank you and we look forward to hearing from you.</p>
                     <div class="contact">
                         <img src="<?php bloginfo('template_url'); ?>/img/img_contact.png" class="contact-img" alt="Ryan">
                         <div class="contact-text">
