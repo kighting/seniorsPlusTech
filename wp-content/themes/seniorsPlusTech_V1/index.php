@@ -128,14 +128,15 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
     <section id="customers">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Retirement communities we work with</h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h3>Retirement communites we work with</h3>
 <!--                    <img src="<?php bloginfo('template_url'); ?>/img/logo_mbk.png" class="customer_logo" alt="MBK Senior Living">-->
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_transforming_age.png" class="customer_logo" alt="Transforming Age">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_Watermark.png" class="customer_logo" alt="Watermark Retirement Community">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_era_living.png" class="customer_logo" alt="Era Living">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_solstice.png" class="customer_logo" alt="Solstice Senior Living">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_koelsch_communities.png" class="customer_logo" alt="Koelsch Communities">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_aegis.png" class="customer_logo" alt="Aegis Living">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_brookdale.png" class="customer_logo" alt="Brookdale Senior Living Solutions">
                 </div>
