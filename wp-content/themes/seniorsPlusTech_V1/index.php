@@ -138,6 +138,7 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_solstice.png" class="customer_logo" alt="Solstice Senior Living">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_koelsch_communities.png" class="customer_logo" alt="Koelsch Communities">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_aegis.png" class="customer_logo" alt="Aegis Living">
+                    <img src="<?php bloginfo('template_url'); ?>/img/logo_milestone.png" class="customer_logo" alt="Milestone Retirement Communities">
                     <img src="<?php bloginfo('template_url'); ?>/img/logo_brookdale.png" class="customer_logo" alt="Brookdale Senior Living Solutions">
                 </div>
             </div>
